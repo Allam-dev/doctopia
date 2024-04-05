@@ -1,6 +1,8 @@
 import 'package:doctopia/core/ui/assets/assets.gen.dart';
 import 'package:doctopia/core/ui/theming/text_styles.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class DoctorImageAndText extends StatelessWidget {
   const DoctorImageAndText({super.key});
@@ -9,7 +11,7 @@ class DoctorImageAndText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Assets.images.logoWithLowOpacity.svg(),
+        Assets.images.logoWithLowOpacity.svg(width: ScreenUtil().screenWidth),
         Positioned(
           right: 0,
           bottom: 0,

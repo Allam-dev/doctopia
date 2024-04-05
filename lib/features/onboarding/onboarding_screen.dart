@@ -17,6 +17,7 @@ class OnboardingScreen extends StatelessWidget {
           child: SafeArea(
             child: Column(
               children: [
+                SizedBox(height: 30.h),
                 const LogoAndName(),
                 SizedBox(height: 20.h),
                 const DoctorImageAndText(),
