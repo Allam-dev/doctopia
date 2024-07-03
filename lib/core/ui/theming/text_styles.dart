@@ -5,12 +5,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class TextStyles {
   static TextStyle font32Blue700Weight = TextStyle(
     fontSize: 32.sp,
-    color: ColorManager.primary,
+    color: ColorManager.blue,
     fontWeight: FontWeight.w700,
   );
 
-  static TextStyle font13Grey400Weight = TextStyle(
-    fontSize: 13.sp,
+  static TextStyle font15Grey400Weight = TextStyle(
+    fontSize: 15.sp,
     color: ColorManager.grey,
     fontWeight: FontWeight.w400,
   );

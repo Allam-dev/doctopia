@@ -14,6 +14,10 @@ import 'package:flutter/services.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/android_12_splash.png
+  AssetGenImage get android12Splash =>
+      const AssetGenImage('assets/images/android_12_splash.png');
+
   /// File path: assets/images/logo.svg
   SvgGenImage get logo => const SvgGenImage('assets/images/logo.svg');
 
@@ -25,8 +29,12 @@ class $AssetsImagesGen {
   AssetGenImage get onboardingDoctor =>
       const AssetGenImage('assets/images/onboarding_doctor.png');
 
+  /// File path: assets/images/splash.png
+  AssetGenImage get splash => const AssetGenImage('assets/images/splash.png');
+
   /// List of all assets
-  List<dynamic> get values => [logo, logoWithLowOpacity, onboardingDoctor];
+  List<dynamic> get values =>
+      [android12Splash, logo, logoWithLowOpacity, onboardingDoctor, splash];
 }
 
 class Assets {

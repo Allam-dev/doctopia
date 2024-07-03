@@ -13,7 +13,7 @@ class OnboardingScreen extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 20.h, vertical: 8.h),
+          padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 8.h),
           child: SafeArea(
             child: Column(
               children: [
@@ -27,7 +27,7 @@ class OnboardingScreen extends StatelessWidget {
                 Text(
                   'Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.',
                   textAlign: TextAlign.center,
-                  style: TextStyles.font13Grey400Weight,
+                  style: TextStyles.font15Grey400Weight,
                 ),
                 SizedBox(
                   height: 45.h,

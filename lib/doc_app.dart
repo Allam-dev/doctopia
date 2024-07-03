@@ -19,8 +19,27 @@ class DocApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         onGenerateRoute: appRouter.generateRoute,
         theme: ThemeData(
-          primaryColor: ColorManager.primary,
+          primaryColor: ColorManager.blue,
           scaffoldBackgroundColor: Colors.white,
+          // inputDecorationTheme: InputDecorationTheme(
+          //   isDense: true,
+          //   contentPadding:
+          //       EdgeInsets.symmetric(horizontal: 20.w, vertical: 18.h),
+          //   focusedBorder: OutlineInputBorder(
+          //     borderRadius: BorderRadius.circular(10.r),
+          //     borderSide: const BorderSide(
+          //       color: ColorManager.blue,
+          //       width: 1.3,
+          //     ),
+          //   ),
+          //   enabledBorder: OutlineInputBorder(
+          //     borderRadius: BorderRadius.circular(10.r),
+          //     borderSide: BorderSide(
+          //       color: ColorManager.grey.withOpacity(0.2),
+          //       width: 1.3,
+          //     ),
+          //   ),
+          // ),
         ),
       ),
     );
