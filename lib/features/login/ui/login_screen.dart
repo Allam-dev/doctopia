@@ -4,7 +4,6 @@ import 'package:doctopia/features/login/ui/widgets/password_field.dart';
 import 'package:doctopia/features/login/ui/widgets/welcome_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pw_validator/Resource/Strings.dart';
 import 'package:flutter_pw_validator/flutter_pw_validator.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';

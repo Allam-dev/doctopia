@@ -1,4 +1,3 @@
-import 'package:dio/dio.dart';
 import 'package:doctopia/core/network/api_services.dart';
 import 'package:doctopia/core/network/dio_factory.dart';
 import 'package:doctopia/features/login/data/repo/login_repo.dart';
